@@ -1,21 +1,27 @@
-const express = require('express');
-const translator=require('./NL2SQl/translate.js');
+const translator = require('./NL2SQl/translate.js');
+const db = require('./DataBridge/getSchema.js');
+const dbexec = require('./DataBridge/runQuery.js');
+const readline = require('readline');
 
 
-const app = express();
+const config = {
+  host: 'localhost',
+  user: 'your_database_user',
+  password: 'your_database_password',
+  database: 'your_database_name'
+};
 
-app.use(express.static('src'));
-
-app.get('/home', async (req, res) => {
-  console.log("hello");
-  const s= await translator.converttosql('Student whose mark is greater than 20',"students,marks,regno");
-  console.log(s);
-  res.send(s);
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
 });
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+const schema = await db(config);
+
+rl.question("Atlas: Ask your Question ? ", async (ques) => {
+  const sqlquery = await translator.converttosql(ques, schema);
+  console.log("Translated Query: " + sqlquery);
+  const res = await dbexec(sqlquery, config);
+  console.log(`Results:${res}`);
+  rl.close();
 });
-
-
