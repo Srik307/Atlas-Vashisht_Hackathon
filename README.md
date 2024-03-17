@@ -60,7 +60,7 @@ Fetch query results using database connectors.
 Present results to the user in a structured format.
 
 
-![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
+![flowchart](https://github.com/Srik307/Atlas-Vashisht_Hackathon/blob/main/flowchart.jpg)
 
 ## Techstacks used 
 `nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
