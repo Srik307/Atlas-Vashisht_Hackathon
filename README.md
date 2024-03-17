@@ -12,9 +12,10 @@ Our project, 'Atlas AI,' serves as an integrated AI interface designed for datab
 
 | Name    | Email           |
 |---------|-----------------|
-| Ezhil Srikanth M | person1@gmail.com |
-| Giridhar N | person2@gmail.com |
-| Aarthi | person3@gmail.com |
+| Ezhil Srikanth M| ezhilsrikanthm.csbs2022@citchennai.net |
+| Giridhar N | giridharn.csbs2022@citchennai.net |
+| Aarthi | aarthir.csbs2022@citchennai.net |
+| Sowmiyaa | sowmiyaagv.csbs2022@citchennai.net |
 
 <div style="display: flex; flex-wrap: wrap;">
     <img src="https://github.com/Srik307/Atlas-Vashisht_Hackathon/blob/main/ex1%20(1).png" alt="Image 1" style="width: 30%; margin: 5px;">
