@@ -26,19 +26,19 @@ Our project, 'Atlas AI,' serves as an integrated AI interface designed for datab
 </div>
 
 ## Problem statement 
-Traditional database interaction methods are often complex, requiring advanced technical skills and language proficiency. This creates barriers for non-technical users, especially when dealing with multilingual data.<br>
+- Traditional database interaction methods are often complex, requiring advanced technical skills and language proficiency. This creates barriers for non-technical users, especially when dealing with multilingual data.<br>
 Our project Atlas AI aims to overcome these challenges by offering an intuitive interface that translates natural language queries into SQL, simplifying data retrieval and analysis for users of all backgrounds.
 
 ## About the project
 
 Features of Atlas AI:
 
-Multilingual Translation: Supports translation of queries from Dutch to English.<br>
-Natural Language Processing: Understands user queries in their natural language form.<br>
-SQL Query Generation: Converts translated queries into SQL queries.<br>
-Database Interaction: Executes SQL queries on connected databases and retrieves relevant results.<br>
-User-Friendly Interface: Intuitive interface for simplified querying, accessible to users of all levels.<br>
-Efficiency and Accessibility: Removes language barriers, enhancing efficiency and accessibility in data analysis. <br>
+- Multilingual Translation: Supports translation of queries from Dutch to English.<br>
+- Natural Language Processing: Understands user queries in their natural language form.<br>
+- SQL Query Generation: Converts translated queries into SQL queries.<br>
+- Database Interaction: Executes SQL queries on connected databases and retrieves relevant results.<br>
+- User-Friendly Interface: Intuitive interface for simplified querying, accessible to users of all levels.<br>
+- Efficiency and Accessibility: Removes language barriers, enhancing efficiency and accessibility in data analysis. <br>
 ## Technical implemntaion 
 
 Approach:
@@ -59,7 +59,6 @@ Execute SQL queries against the database.
 Fetch query results using database connectors.
 Present results to the user in a structured format.
 
-- 
 
 ![flowchart](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm5X9E8h0kftXOW2B9jORBskdXF12pFKOX_Q&usqp=CAU)
 
