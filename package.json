@@ -1,0 +1,11 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\" style=\"border-bottom: none\">     <b>         <a href=\"https://www.google.com\"> ATLAS AI</a><br>     </b> ⭐️AI Assisted Data Querying System ⭐️ <br> </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezhil",
+  "license": "ISC"
+}
