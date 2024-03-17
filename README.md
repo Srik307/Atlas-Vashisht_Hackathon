@@ -17,12 +17,8 @@ Our project, 'Atlas AI,' serves as an integrated AI interface designed for datab
 | Aarthi | person3@gmail.com |
 
 <div style="display: flex; flex-wrap: wrap;">
-    <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEwduQ50DEm_tr94tfGWHqAYzzvjb_5oS6ULmejCN2pBlolGfTv8wTwaa64fnt1GThiDc" alt="Image 3" style="width: 30%; margin: 5px;">
-       <img src="https://static.vecteezy.com/system/resources/previews/013/688/865/non_2x/modern-color-and-geometric-banner-design-template-on-the-background-of-the-mobile-phone-mobile-modern-poster-marketing-special-offer-promotion-smartphone-mockup-vector.jpg" alt="Image 1" style="width: 30%; margin: 5px;">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECH9uhvdGq0EP6QqG8lzAyjz1F-6V5RyMZrjBGmoIbP5diPgG53mWePJ9RlWVbJuVWCo&usqp=CAU" alt="Image 2" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/Srik307/Atlas-Vashisht_Hackathon/blob/main/ex1%20(1).png" alt="Image 1" style="width: 30%; margin: 5px;">
+    <img src="https://github.com/Srik307/Atlas-Vashisht_Hackathon/blob/main/ex1%20(2).png" alt="Image 2" style="width: 30%; margin: 5px;">
 </div>
 
 ## Problem statement 
@@ -63,18 +59,18 @@ Present results to the user in a structured format.
 ![flowchart](https://github.com/Srik307/Atlas-Vashisht_Hackathon/blob/main/flowchart.jpg)
 
 ## Techstacks used 
-`nodejs` , `react` , `ml` , `tech stack 1` , `tech stack 2`
+`NodeJS`, `OpenAI Api` , `MYSQL`
 
 ## How to run locally 
 explain detailed steps to run your project locally , example to run a react application 
 - step 1 : clone the repo 
 ```
 npm install
-npm start
+node index.js
 ```
 
 # What's next ?
-tell the future plan that you have for the project , tell the updates that you would wish to bring
+We are planning to integrate some plot graph UI and analytical tools with our project in the future.
 
 ## Declaration
 We confirm that the project showcased here was either developed entirely during the hackathon or underwent significant updates within the hackathon timeframe. We understand that if any plagiarism from online sources is detected, our project will be disqualified, and our participation in the hackathon will be revoked.
