@@ -18,6 +18,7 @@ const rl = readline.createInterface({
 
 const schema = await db(config);
 
+while(true){
 rl.question("Atlas: Ask your Question ? ", async (ques) => {
   const sqlquery = await translator.converttosql(ques, schema);
   console.log("Translated Query: " + sqlquery);
@@ -25,3 +26,4 @@ rl.question("Atlas: Ask your Question ? ", async (ques) => {
   console.log(`Results:${res}`);
   rl.close();
 });
+}
