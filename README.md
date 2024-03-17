@@ -1,11 +1,11 @@
 <h1 align="center" style="border-bottom: none">
     <b>
-        <a href="https://www.google.com"> ATLAS AI</a><br>
+        <a href=""> ATLAS AI</a><br>
     </b>
 ⭐️AI Assisted Data Querying System ⭐️ <br>
 </h1>
 
-# [`Website link`](http://www.google.com)  [`Demo video link `](http://www.google.com) [`Other links `](http://www.google.com) 
+# [`Demo video link `](https://youtu.be/lvZ9tlDR-t8)
 Our project, 'Atlas AI,' serves as an integrated AI interface designed for database interaction and data analysis. It simplifies user interaction by translating natural language queries into SQL queries, facilitating seamless retrieval of relevant results. With its streamlined workflows, 'Atlas AI' enhances efficiency and accessibility in database querying, making data analysis more efficient and accessible for everyone irrespective of their computer knowledge.
 ## Team Details
 `Team number` : VH243
